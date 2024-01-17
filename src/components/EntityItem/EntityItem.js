@@ -7,7 +7,7 @@ const EntityItem = ({ entity }) => {
     <div className="entity-item">
       <div className="entity-image">
         <img
-          src={entity.imageUrl || CatLofi}
+          src={entity.image || CatLofi}
           alt={entity.name || 'Default Alt Text'}
         />
       </div>

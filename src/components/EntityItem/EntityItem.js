@@ -7,8 +7,8 @@ const EntityItem = ({ entity }) => {
     <div className="entity-item">
       <div className="entity-image">
         <img
-          src={entity.image || CatLofi}
-          alt={entity.name || 'Default Alt Text'}
+        src={CatLofi}
+        alt={entity.name || 'Entity Image'}
         />
       </div>
       <div className="entity-details">

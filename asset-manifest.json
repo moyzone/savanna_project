@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/savanna_project/static/css/main.ce08c7d5.css",
-    "main.js": "/savanna_project/static/js/main.aafc1555.js",
+    "main.js": "/savanna_project/static/js/main.48b96ed3.js",
     "static/js/787.33bcb1f5.chunk.js": "/savanna_project/static/js/787.33bcb1f5.chunk.js",
     "static/media/cat-lofi.png": "/savanna_project/static/media/cat-lofi.ec9a38b462e9ba879478.png",
     "static/media/bootstrap-icons.woff?": "/savanna_project/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/savanna_project/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/savanna_project/index.html",
     "main.ce08c7d5.css.map": "/savanna_project/static/css/main.ce08c7d5.css.map",
-    "main.aafc1555.js.map": "/savanna_project/static/js/main.aafc1555.js.map",
+    "main.48b96ed3.js.map": "/savanna_project/static/js/main.48b96ed3.js.map",
     "787.33bcb1f5.chunk.js.map": "/savanna_project/static/js/787.33bcb1f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce08c7d5.css",
-    "static/js/main.aafc1555.js"
+    "static/js/main.48b96ed3.js"
   ]
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EntityItem = ({ entity }) => {
-  const defaultImageUrl = '/cat-lofi.png';
+  const defaultImageUrl = process.env.PUBLIC_URL + '/cat-lofi.png';
 
   return (
     <div className="entity-item">

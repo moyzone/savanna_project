@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import EntityList from './components/EntityList/EntityList';
+import Logo from './assets/logo.jpeg';
 
 function App() {
   const [data, setData] = useState([]);
@@ -40,7 +41,7 @@ function App() {
       <div className="App-header">
         <div className="custom-header">
           <div className="logo-container">
-            <img src="/logo.jpeg" alt="Logo" className="img-fluid" />
+            <img src={Logo} alt="Logo" className="img-fluid" />
           </div>
           <div className="tabs-container">
             <Nav variant="underline" defaultActiveKey="/entities">

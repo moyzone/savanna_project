@@ -1,13 +1,13 @@
 import React from 'react';
+import CatLofiPic from '../../assets/cat-lofi.png';
 
 const EntityItem = ({ entity }) => {
-  const defaultImageUrl = process.env.PUBLIC_URL + '/cat-lofi.png';
-
+  const CatLofi=CatLofiPic;
   return (
     <div className="entity-item">
       <div className="entity-image">
         <img
-          src={entity.imageUrl || defaultImageUrl}
+          src={entity.imageUrl || CatLofi}
           alt={entity.name || 'Default Alt Text'}
         />
       </div>
